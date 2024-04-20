@@ -1,0 +1,458 @@
+:root {
+    --background: #FFFFFF;
+    --white: #FFFFFF;
+    --black: #000000;
+    --orange: #FFB82D;
+    --grau: #808080;
+    --p: 400 18px/140% Montserrat;
+    --h1: 500 43px/110% Jost;
+    --h2: 400 32px Jost;
+    --dop: 400 14px Montserrat;
+    --footer: 500 18px Montserrat;
+    --button: 600 18px Montserrat;
+}
+
+header {
+    max-width: 1228px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav ul {
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    gap: 60px;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+.nav li {
+
+    list-style: none;
+    font: var(--p);
+    color: var(--black);
+}
+
+
+section {
+    width: 1228px;
+    height: 577px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    width: 540px;
+}
+
+.title h1 {
+    font: var(--h1);
+    margin: 0;
+    color: var(--black);
+}
+
+.title p {
+    margin: 12px 0 32px 0;
+    font: 500 18px Montserrat;
+    color: var(--grau);
+}
+
+section button {
+    width: 153px;
+    height: 42px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 10px;
+    font: var(--button);
+    color: var(--white);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--black);
+    transition: 0.5s;
+    border: 0px;
+    color: var(--white);
+}
+
+section2 {
+    width: 1122px;
+    display: flex;
+    padding-top: 100px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+section2 p {
+    margin-top: 8px;
+    font: var(--p);
+}
+
+.img_veri,
+.img_list,
+.img_brush {
+    padding-left: 50px;
+}
+
+section3 {
+    width: 1228px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 112px;
+    padding: 200px 0 200px 0;
+
+}
+
+.textblock {
+    width: 499px;
+}
+
+section3 p {
+    margin: 0 0 20px 0;
+    font: var(--p);
+}
+
+h2 {
+    margin: 0 0 40px 0;
+    font: var(--h2);
+}
+
+
+.titlel {
+    width: 1228px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.titlel p {
+    font: var(--dop);
+    text-decoration: underline;
+
+    list-style: none;
+
+}
+
+.titlel a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--black);
+}
+
+.cards {
+    width: 1228px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.cards p {
+    font: var(--p);
+    text-align: center;
+    width: 285px;
+    margin: 12px 0 12px 0;
+}
+
+.cards h2 {
+    font: var(--h2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section4 button {
+    width: 153px;
+    height: 42px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 10px;
+    font: var(--button);
+    color: var(--white);
+    cursor: pointer;
+    margin-left: 69px;
+
+}
+
+.cards button:hover {
+    background-color: var(--black);
+    transition: 0.5s;
+    border: 0px;
+    color: var(--white);
+}
+
+section5 {
+    width: 1228px;
+    height: 409px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.sec {
+    background-color: #F8F8F8;
+    width: 812px;
+    border-radius: 20px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0 80px 0
+}
+
+section5 form {
+    padding: 200px 0 0 0;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0 24px 0;
+    gap: 8px;
+}
+
+.txt h2 {
+    font: var(--h2);
+    margin: 0 0 8px 0;
+}
+
+.txt p {
+    font: var(--p);
+    color: var(--grau);
+    margin: 0 0 36px 0;
+}
+
+.check p {
+    font: var(--dop);
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 450px;
+    height: 52px;
+    border: none;
+    border-radius: 15px;
+    background: #ffffff;
+    font-size: var(--p);
+    padding: 0 20px 0 20px;
+}
+
+section5 button {
+    width: 153px;
+    height: 42px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 10px;
+    font: var(--button);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.sec button:hover {
+    background-color: var(--black);
+    transition: 0.5s;
+    border: 0px;
+    color: var(--white);
+}
+
+footer {
+    width: 1680px;
+    height: 258px;
+    background-color: #FFDB96;
+    margin-top: 200px;
+
+
+}
+
+.foo {
+    width: 1228px;
+    height: 258px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.listt {
+    width: 1020px;
+    height: 164px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.listt ul {
+    height: 164px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.listt li {
+    font: var(--footer)
+}
+
+.tx {
+    width: 236px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tx p {
+    margin: 0;
+    font: var(--footer);
+    color: var(--white);
+
+}
+
+.tx1 {
+    width: 296px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tx1 p {
+    margin: 0;
+    font: var(--footer);
+    color: var(--white);
+}
+
+.mail {
+    width: 226px;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foo li {
+    list-style: none;
+    color: var(--white);
+}
+
+.soc {
+    width: 128px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgw {
+    align-items: start;
+
+    height: 164px;
+}
+
+/* CSS страницы "Каталог"*/
+
+.category {
+    max-width: 1228px;
+    margin: auto;
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+
+}
+
+filtr button {
+    padding: 0 30px 0 30px;
+    height: 42px;
+    background-color: var(--background);
+    border: var(--orange) solid 2px;
+    border-radius: 10px;
+    font: var(--button);
+    color: var(--orange);
+    cursor: pointer;
+
+}
+
+.butblack {
+    padding: 0 30px 0 30px;
+    height: 42px;
+    background-color: var(--black);
+    border: none;
+    border-radius: 10px;
+    font: var(--button);
+    color: var(--white);
+    cursor: pointer;
+}
+
+catalog button {
+    width: 153px;
+    height: 42px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 10px;
+    font: var(--button);
+    color: var(--white);
+    cursor: pointer;
+    margin-left: 69px;
+}
+
+.cardss button:hover {
+    background-color: var(--black);
+    transition: 0.5s;
+    border: 0px;
+    color: var(--white);
+}
+
+.one {
+    padding-top: 100px;
+}
+
+.two {
+    padding: 60px 0 60px 0;
+}
+
+.cardss {
+    width: 1228px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.cardss p {
+    font: var(--p);
+    text-align: center;
+    width: 285px;
+    margin: 12px 0 12px 0;
+}
+
+.cardss h2 {
+    font: var(--h2);
+    text-align: center;
+    margin-bottom: 20px;
+}
